@@ -1,0 +1,108 @@
+local function safecall(func, ...)
+    local success, result = pcall(func, ...)
+    if not success then
+        local errorMsg = tostring(result)
+        local CoreGui = game:GetService("StarterGui")
+        CoreGui:SetCore("SendNotification", {
+            Title = "VexonHub Error",
+            Text = "Error: " .. errorMsg,
+            Icon = "http://www.roblox.com/asset/?id=84519376661277",
+            Duration = 10
+        })
+        return nil, errorMsg
+    end
+    return result
+end
+
+local gameId = game.PlaceId
+if gameId == 130818724007978 or gameId == 12360882630 or gameId == 10449761463 or gameId == 131048399685555 then
+    safecall(function()
+        loadstring(game:HttpGet("https://luaprot.net/api/v2/loaders/get/61653603970850340142"))()
+    end)
+
+elseif gameId == 142823291 or gameId == 71915429981056 or gameId == 88471917710381 then
+    safecall(function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/6a182b03bbb42943bc73008b5157cd0c.lua"))()
+    end)
+
+elseif gameId == 9015014224 or gameId == 11520107397 or gameId == 6403373529 or gameId == 124596094333302 then
+    safecall(function()
+        loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/67b9c7fbf328b7b1ea31f63a22f2f40465a757f29cf0aefdb891083a4a8c3778/download"))()
+    end)
+
+elseif gameId == 537413528 then
+    safecall(function()
+        loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/d9b061887be17192"))()
+    end)
+
+elseif gameId == 70845479499574 then
+    safecall(function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/ff8456b7f1d63fe042cb6597636e04c2.lua"))()
+    end)
+
+elseif gameId == 189707 then
+    safecall(function()
+        loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/af8f56f8c5f85179"))()
+    end)
+
+elseif gameId == 76558904092080 or gameId == 129009554587176 then
+    safecall(function()
+        loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/834553be00018741e606bcde0d7f9b13b5b9c0f9854f7e7db1d6a121cd995734/download"))()
+    end)
+
+elseif gameId == 3956818381 then
+    safecall(function()
+        loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/f7d076b0f9452913"))()
+    end)
+
+elseif gameId == 18687417158 or gameId == 83645629621104 then
+    safecall(function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/042ea71b697fafe62230335e0caf2c91.lua"))()
+    end)
+
+elseif gameId == 9391468976 then
+    safecall(function()
+        loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/69de86eca233ff49a2340f4d6d51a2fee991dc86f6af8d979a01a1a3b7bce183/download"))()
+    end)
+
+elseif gameId == 1537690962 then
+    safecall(function()
+        loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/df4d50aa689f0fc8"))()
+    end)
+
+elseif gameId == 126509999114328 or gameId == 79546208627805 then
+    safecall(function()
+        loadstring(game:HttpGet("https://luaprot.net/api/v2/loaders/get/45635147813641682356"))()
+    end)
+
+elseif gameId == 4924922222 then
+    safecall(function()
+        loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/7c9b01fe4315a4eafc27006e7872d91a01b93bfac771fb27039c3e3fda77c797/download"))()
+    end)
+
+elseif gameId == 109983668079237 or gameId == 96342491571673 then
+    safecall(function()
+        loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/1a676f54b72bb3f0"))()
+    end)
+
+elseif gameId == 70876832253163 or gameId == 116495829188952 then
+    safecall(function()
+        loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/de973c845922198d"))()
+    end)
+
+else
+    local CoreGui = game:GetService("StarterGui")
+    CoreGui:SetCore("SendNotification", {
+        Title = "VexonHub",
+        Text = "Script Not Supports This Game But You Can Use Universal VexonHub",
+        Icon = "http://www.roblox.com/asset/?id=84519376661277",
+        Duration = 10
+    })
+    safecall(function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/a2b5cac30a50c7d74af2238fe7dbb1c1.lua"))()
+    end)
+end
+
+safecall(function()
+    loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/df0160eb863d26d0"))()
+end)
