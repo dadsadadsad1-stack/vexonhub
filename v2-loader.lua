@@ -22,7 +22,7 @@ if gameId == 130818724007978 or gameId == 12360882630 or gameId == 10449761463 o
 
 elseif gameId == 142823291 or gameId == 71915429981056 or gameId == 88471917710381 then
     safecall(function()
-        loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/6a182b03bbb42943bc73008b5157cd0c.lua"))()
+        loadstring(game:HttpGet("https://luaprot.net/api/v2/loaders/get/02912539852834764826"))()
     end)
 
 elseif gameId == 9015014224 or gameId == 11520107397 or gameId == 6403373529 or gameId == 124596094333302 then
