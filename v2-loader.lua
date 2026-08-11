@@ -57,7 +57,7 @@ elseif gameId == 3956818381 then
 
 elseif gameId == 18687417158 or gameId == 83645629621104 then
     safecall(function()
-        loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/042ea71b697fafe62230335e0caf2c91.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/cvjhvc/vexsaken/main/vexsaken6.7"))()
     end)
 
 elseif gameId == 9391468976 then
