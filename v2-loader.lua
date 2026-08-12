@@ -17,12 +17,12 @@ end
 local gameId = game.PlaceId
 if gameId == 130818724007978 or gameId == 12360882630 or gameId == 10449761463 or gameId == 131048399685555 then
     safecall(function()
-        loadstring(game:HttpGet("https://luaprot.net/api/v2/loaders/get/61653603970850340142"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/dadsadadsad1-stack/vexonhub/refs/heads/main/reworked/tsb-vh"))()
     end)
 
 elseif gameId == 142823291 or gameId == 71915429981056 or gameId == 88471917710381 then
     safecall(function()
-        loadstring(game:HttpGet("https://luaprot.net/api/v2/loaders/get/02912539852834764826"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/dadsadadsad1-stack/vexonhub/refs/heads/main/reworked/mm2-vh"))()
     end)
 
 elseif gameId == 9015014224 or gameId == 11520107397 or gameId == 6403373529 or gameId == 124596094333302 then
@@ -72,7 +72,7 @@ elseif gameId == 1537690962 then
 
 elseif gameId == 126509999114328 or gameId == 79546208627805 then
     safecall(function()
-        loadstring(game:HttpGet("https://luaprot.net/api/v2/loaders/get/45635147813641682356"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/dadsadadsad1-stack/vexonhub/refs/heads/main/reworked/99n-vh"))()
     end)
 
 elseif gameId == 4924922222 then
